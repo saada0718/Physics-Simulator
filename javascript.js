@@ -1,3 +1,6 @@
+/*
+Loading in all the elements
+*/
 const circle = document.querySelector('.ball');
 const drop = document.querySelector('#drop');
 const ramp = document.querySelector('#ramp');
@@ -6,18 +9,23 @@ const lblyloc = document.querySelector('#yloc');
 const lblspeed = document.querySelector('#speed');
 const rampel = document.querySelector('.ramp');
 
+
+//The vertical velocity
 let v = 0;
+//The horizontal velocity
 let h = 0;
 
+//Acceleration due to gravity
+const gravAcc = 9.8 ;
+//The horizontal acceleration on the ramp
+const horSlopeAcc = 2.212 ;
+//The vertical acceleration on the ramp
+const vertSlopeAcc = 0.632 ;
 
-let gravAcc = 9.8 ;
-let horSlopeAcc = 2.212 ;
-let vertSlopeAcc = 0.632 ;
 
 
 
-
-
+//Stating the location of all the elements at the start
 window.addEventListener('load', ()=>{
 	circle.style.position = 'absolute';
 	circle.style.left = '50px';
@@ -26,7 +34,6 @@ window.addEventListener('load', ()=>{
 	rampel.style.left = '50px';
 	rampel.style.top =  '500px';
 });
-
 
 
 drop.addEventListener('click', ()=>{
