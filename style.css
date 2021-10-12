@@ -1,0 +1,62 @@
+.ramp{
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid white;
+    border-right: 700px solid transparent;
+    visibility: hidden;
+}
+
+#rmpspace{
+    padding-left: 2%;
+}
+
+#rmpheader{
+    padding: 2%;
+}
+
+.ball{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    visibility: hidden;
+}
+
+.spacingButton{
+    padding-left: 22%;
+}
+
+.headerButtons{
+    padding: 1% 7%;
+    font-weight: 900;
+    background-color: purple;
+    color:  yellow;
+    border-radius:  4px;
+}
+
+
+html{
+
+    background-image: url(bg.png);
+}
+
+.lbls{
+    background-color: yellow;
+    color: blue;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 7%;
+    text-shadow: 0.75px 0.75px black;
+}
+
+.btmspace{
+    padding: 5%;
+}
+
+.space{
+    padding-left: 70%;
+}
+
